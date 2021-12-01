@@ -13,6 +13,7 @@
 		FDEF5C7B2757BF5E00219A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEF5C792757BF5E00219A9D /* Main.storyboard */; };
 		FDEF5C7D2757BF6100219A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEF5C7C2757BF6100219A9D /* Assets.xcassets */; };
 		FDEF5C802757BF6100219A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEF5C7E2757BF6100219A9D /* LaunchScreen.storyboard */; };
+		FDEF5C882757CCA700219A9D /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = FDEF5C872757CCA700219A9D /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FDEF5C7C2757BF6100219A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDEF5C7F2757BF6100219A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDEF5C812757BF6100219A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEF5C872757CCA700219A9D /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		FDEF5C672757BF5E00219A9D = {
 			isa = PBXGroup;
 			children = (
+				FDEF5C872757CCA700219A9D /* cachorro.png */,
 				FDEF5C722757BF5E00219A9D /* IdadeCanina */,
 				FDEF5C712757BF5E00219A9D /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEF5C882757CCA700219A9D /* cachorro.png in Resources */,
 				FDEF5C802757BF6100219A9D /* LaunchScreen.storyboard in Resources */,
 				FDEF5C7D2757BF6100219A9D /* Assets.xcassets in Resources */,
 				FDEF5C7B2757BF5E00219A9D /* Main.storyboard in Resources */,
@@ -291,6 +295,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IdadeCanina/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Idade Canina";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IdadeCanina/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Idade Canina";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
